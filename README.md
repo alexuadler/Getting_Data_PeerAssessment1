@@ -19,5 +19,5 @@ In general, this analysis will perform the following actions:
 3. Select only features that describe mean/standard deviation of a variable
 4. Improve readability of column headers
 5. Export two files:
-      - cleanData.txt: the complete, clean data set with individual values for the variable means and standard deviations
-      - tidySummary.txt: the summarized data where means are taken of each variable per activity, per subject
+      * cleanData.txt: the complete, clean data set with individual values for the variable means and standard deviations
+      * tidySummary.txt: the summarized data where means are taken of each variable per activity, per subject
