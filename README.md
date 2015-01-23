@@ -14,10 +14,12 @@ The project specifies that only the data from the feature list that provide the 
 A summarized version was also requested, that takes the mean of each feature of interest and reports for each activity and for each subject.
 
 In general, this analysis will perform the following actions:
+
 1. Download and unzip the raw data from the repository
 2. Merge both training and test data into one file, with feature labels
 3. Select only features that describe mean/standard deviation of a variable
 4. Improve readability of column headers
 5. Export two files:
+
       * cleanData.txt: the complete, clean data set with individual values for the variable means and standard deviations
       * tidySummary.txt: the summarized data where means are taken of each variable per activity, per subject.
